@@ -1,0 +1,14 @@
+.App {
+    text-align: center;
+  }
+
+  .greeting {
+    font-size: 50px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+  }

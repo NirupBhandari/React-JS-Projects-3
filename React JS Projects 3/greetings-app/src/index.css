@@ -1,0 +1,30 @@
+#animate {
+  animation-name: text;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+#footer1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #090;
+  padding-bottom: 5px;
+}
+
+#footer2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #090;
+  padding-bottom: 5px;
+}
+
+@keyframes text {
+  from {
+      margin-top: 400px;
+  }
+  to {
+      margin-top: 0px;
+  }
+}

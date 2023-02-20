@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://mcdn.wallpapersafari.com/medium/2/22/JxsDef.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-color);
+  display: grid;
+  place-items: center;
+  height: 101vh;
+}
+
+.typewriter h3 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
